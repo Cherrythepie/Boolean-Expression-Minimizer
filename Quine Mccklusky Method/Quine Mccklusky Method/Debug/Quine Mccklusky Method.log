@@ -1,0 +1,44 @@
+﻿Build started 10/14/2016 1:48:04 PM.
+     1>Project "E:\Computer Architecture\Projects\Quine Mccklusky Method\Quine Mccklusky Method\Quine Mccklusky Method.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Quine Mccklusky Method.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ColumnClass.cpp Driver.cpp TableClass.cpp
+         TableClass.cpp
+     1>e:\computer architecture\projects\quine mccklusky method\quine mccklusky method\tableclass.cpp(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\computer architecture\projects\quine mccklusky method\quine mccklusky method\tableclass.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Driver.cpp
+     1>e:\computer architecture\projects\quine mccklusky method\quine mccklusky method\driver.cpp(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\computer architecture\projects\quine mccklusky method\quine mccklusky method\driver.cpp(139): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         ColumnClass.cpp
+     1>e:\computer architecture\projects\quine mccklusky method\quine mccklusky method\columnclass.cpp(76): warning C4172: returning address of local variable or temporary
+     1>e:\computer architecture\projects\quine mccklusky method\quine mccklusky method\columnclass.cpp(113): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\computer architecture\projects\quine mccklusky method\quine mccklusky method\columnclass.cpp(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Quine Mccklusky Method.exe.embed.manifest.res" "Debug\Quine Mccklusky Method_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Computer Architecture\Projects\Quine Mccklusky Method\Debug\Quine Mccklusky Method.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Quine Mccklusky Method.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Computer Architecture\Projects\Quine Mccklusky Method\Debug\Quine Mccklusky Method.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Computer Architecture\Projects\Quine Mccklusky Method\Debug\Quine Mccklusky Method.lib" /MACHINE:X86 "Debug\Quine Mccklusky Method.exe.embed.manifest.res"
+         Debug\ColumnClass.obj
+         Debug\Driver.obj
+         Debug\TableClass.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Quine Mccklusky Method.exe.embed.manifest" /manifest "Debug\Quine Mccklusky Method.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Quine Mccklusky Method.vcxproj -> E:\Computer Architecture\Projects\Quine Mccklusky Method\Debug\Quine Mccklusky Method.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Quine Mccklusky Method.unsuccessfulbuild".
+         Touching "Debug\Quine Mccklusky Method.lastbuildstate".
+     1>Done Building Project "E:\Computer Architecture\Projects\Quine Mccklusky Method\Quine Mccklusky Method\Quine Mccklusky Method.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:04.43

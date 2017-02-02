@@ -1,0 +1,56 @@
+1) 
+The Original Boolean Expression is: 
+ABC + Abc + ABc + AbC + abC + aBc
+
+The Minimized Boolean Expression is: 
+Bc + bC + A
+
+*******************************************************************************************
+2) 
+The Original Boolean Expression is: 
+ABCD + ABcD + ABcd + AbCD + aBCD + aBCd + aBcD + abcD
+
+The Minimized Boolean Expression is: 
+ACD + ABc + aBC + acD + 
+
+*******************************************************************************************
+3) 
+The Original Boolean Expression is: 
+aBcDEf + ABcdEF + AbCdEF + ABCdEF + aBCDEf + ABCDEF + ABcdEf + AbCDEF + aBcDef
+
+The Minimized Boolean Expression is: 
+aBDEf + aBcDf + ABcdE + ACEF
+
+*******************************************************************************************
+4) 
+The Original Boolean Expression is: 
+abcde + AbCde + ABcdE + abCde + aBCDE + Abcde + abCDE + abCDe + aBcDE + ABCDE + AbCDe
+
+The Minimized Boolean Expression is: 
+aBDE + BCDE + bde + bCe
+
+*******************************************************************************************
+5) 
+The Original Boolean Expression is: 
+aBCdE + ABCde + ABcde + aBcdE + ABcDe + ABCdE + AbCde + AbCdE
+
+The Minimized Boolean Expression is: 
+aBdE + ABce + ACd
+
+*******************************************************************************************
+6) 
+The Original Boolean Expression is: 
+abCd + aBcd + Abcd + AbcD + abCD + aBCD + abcD + aBCd
+
+The Minimized Boolean Expression is: 
+aBd + Abc + aC
+
+*******************************************************************************************
+7) 
+The Original Boolean Expression is: 
+AbCd + abCd + ABcd + abcD + AbCD + ABCd + abcd + ABCD
+
+The Minimized Boolean Expression is: 
+ABd + abc + AC
+
+*******************************************************************************************
